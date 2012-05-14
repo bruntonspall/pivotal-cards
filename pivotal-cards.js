@@ -122,7 +122,7 @@
 			/*
 			 *  pagination
 			 */
-			if ((cardno % 2) === 0) {
+			if ((cardno % 4) === 0) {
 				page = $('<div class="page" id="page' + (cardno / 2) + '"></div>');
 				main.append(page);
 			}
